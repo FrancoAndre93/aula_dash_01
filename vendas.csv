@@ -1,0 +1,145 @@
+Cidade,Mês,Vendas
+São Paulo,Jan/2023,171
+São Paulo,Fev/2023,132
+São Paulo,Mar/2023,164
+São Paulo,Abr/2023,131
+São Paulo,Mai/2023,100
+São Paulo,Jun/2023,65
+São Paulo,Jul/2023,433
+São Paulo,Ago/2023,168
+São Paulo,Set/2023,337
+São Paulo,Out/2023,132
+São Paulo,Nov/2023,92
+São Paulo,Dez/2023,453
+São Paulo,Jan/2024,427
+São Paulo,Fev/2024,64
+São Paulo,Mar/2024,235
+São Paulo,Abr/2024,138
+São Paulo,Mai/2024,360
+São Paulo,Jun/2024,266
+São Paulo,Jul/2024,432
+São Paulo,Ago/2024,221
+São Paulo,Set/2024,122
+São Paulo,Out/2024,169
+São Paulo,Nov/2024,496
+São Paulo,Dez/2024,269
+Rio de Janeiro,Jan/2023,479
+Rio de Janeiro,Fev/2023,315
+Rio de Janeiro,Mar/2023,303
+Rio de Janeiro,Abr/2023,110
+Rio de Janeiro,Mai/2023,290
+Rio de Janeiro,Jun/2023,174
+Rio de Janeiro,Jul/2023,425
+Rio de Janeiro,Ago/2023,227
+Rio de Janeiro,Set/2023,363
+Rio de Janeiro,Out/2023,301
+Rio de Janeiro,Nov/2023,451
+Rio de Janeiro,Dez/2023,188
+Rio de Janeiro,Jan/2024,149
+Rio de Janeiro,Fev/2024,163
+Rio de Janeiro,Mar/2024,194
+Rio de Janeiro,Abr/2024,93
+Rio de Janeiro,Mai/2024,435
+Rio de Janeiro,Jun/2024,217
+Rio de Janeiro,Jul/2024,151
+Rio de Janeiro,Ago/2024,421
+Rio de Janeiro,Set/2024,169
+Rio de Janeiro,Out/2024,463
+Rio de Janeiro,Nov/2024,123
+Rio de Janeiro,Dez/2024,212
+Fortaleza,Jan/2023,155
+Fortaleza,Fev/2023,147
+Fortaleza,Mar/2023,321
+Fortaleza,Abr/2023,227
+Fortaleza,Mai/2023,282
+Fortaleza,Jun/2023,324
+Fortaleza,Jul/2023,101
+Fortaleza,Ago/2023,213
+Fortaleza,Set/2023,189
+Fortaleza,Out/2023,64
+Fortaleza,Nov/2023,342
+Fortaleza,Dez/2023,250
+Fortaleza,Jan/2024,77
+Fortaleza,Fev/2024,270
+Fortaleza,Mar/2024,169
+Fortaleza,Abr/2024,329
+Fortaleza,Mai/2024,236
+Fortaleza,Jun/2024,282
+Fortaleza,Jul/2024,177
+Fortaleza,Ago/2024,355
+Fortaleza,Set/2024,450
+Fortaleza,Out/2024,496
+Fortaleza,Nov/2024,455
+Fortaleza,Dez/2024,350
+Belo Horizonte,Jan/2023,393
+Belo Horizonte,Fev/2023,59
+Belo Horizonte,Mar/2023,396
+Belo Horizonte,Abr/2023,76
+Belo Horizonte,Mai/2023,302
+Belo Horizonte,Jun/2023,452
+Belo Horizonte,Jul/2023,309
+Belo Horizonte,Ago/2023,492
+Belo Horizonte,Set/2023,126
+Belo Horizonte,Out/2023,114
+Belo Horizonte,Nov/2023,492
+Belo Horizonte,Dez/2023,51
+Belo Horizonte,Jan/2024,352
+Belo Horizonte,Fev/2024,363
+Belo Horizonte,Mar/2024,135
+Belo Horizonte,Abr/2024,291
+Belo Horizonte,Mai/2024,360
+Belo Horizonte,Jun/2024,120
+Belo Horizonte,Jul/2024,341
+Belo Horizonte,Ago/2024,278
+Belo Horizonte,Set/2024,475
+Belo Horizonte,Out/2024,364
+Belo Horizonte,Nov/2024,382
+Belo Horizonte,Dez/2024,302
+Curitiba,Jan/2023,179
+Curitiba,Fev/2023,192
+Curitiba,Mar/2023,352
+Curitiba,Abr/2023,487
+Curitiba,Mai/2023,413
+Curitiba,Jun/2023,485
+Curitiba,Jul/2023,365
+Curitiba,Ago/2023,350
+Curitiba,Set/2023,447
+Curitiba,Out/2023,410
+Curitiba,Nov/2023,123
+Curitiba,Dez/2023,482
+Curitiba,Jan/2024,478
+Curitiba,Fev/2024,362
+Curitiba,Mar/2024,234
+Curitiba,Abr/2024,292
+Curitiba,Mai/2024,479
+Curitiba,Jun/2024,227
+Curitiba,Jul/2024,169
+Curitiba,Ago/2024,91
+Curitiba,Set/2024,340
+Curitiba,Out/2024,308
+Curitiba,Nov/2024,239
+Curitiba,Dez/2024,360
+Salvador,Jan/2023,168
+Salvador,Fev/2023,102
+Salvador,Mar/2023,193
+Salvador,Abr/2023,412
+Salvador,Mai/2023,263
+Salvador,Jun/2023,142
+Salvador,Jul/2023,440
+Salvador,Ago/2023,361
+Salvador,Set/2023,64
+Salvador,Out/2023,65
+Salvador,Nov/2023,407
+Salvador,Dez/2023,146
+Salvador,Jan/2024,184
+Salvador,Fev/2024,173
+Salvador,Mar/2024,400
+Salvador,Abr/2024,248
+Salvador,Mai/2024,332
+Salvador,Jun/2024,473
+Salvador,Jul/2024,270
+Salvador,Ago/2024,189
+Salvador,Set/2024,67
+Salvador,Out/2024,92
+Salvador,Nov/2024,110
+Salvador,Dez/2024,248
