@@ -18,39 +18,50 @@ app.layout = html.Div([
         value="São Paulo"
     ),
 
-    dcc.Graph(id="grafico-vendas")
+    dcc.Graph(id="grafico-colunas"),
+    dcc.Graph(id="grafico-linha"),
+    dcc.Graph(id="grafico-dispersao")
 ])
 
 @app.callback(
-    Output("grafico-vendas", "figure"),
+    Output("grafico-colunas", "figure"),
+    Output("grafico-linha", "figure"),
+    Output("grafico-dispersao", "figure"),
     Input("dropdown-cidade", "value")
 )
-
-def atualizar_grafico(cidade_selecionada):
+def atualizar_graficos(cidade_selecionada):
     df_filtrado = df[df["Cidade"] == cidade_selecionada]
-    fig = px.bar(
+
+    fig_colunas = px.bar(
         df_filtrado,
         x="Mês",
         y="Vendas",
         title=f"Vendas em {cidade_selecionada}",
-        text="Vendas"  
+        text="Vendas"
+    )
+    fig_colunas.update_traces(textposition='outside')
+
+    fig_linha = px.line(
+        df_filtrado,
+        x="Mês",
+        y="Vendas",
+        title=f"Tendência de Vendas - {cidade_selecionada}",
+        markers=True
     )
 
-    fig.update_traces(
-        textposition='outside',  
-        textfont_size=10
+    if "Quantidade" not in df_filtrado.columns:
+        df_filtrado["Quantidade"] = df_filtrado["Vendas"] // 100  
+
+    fig_disp = px.scatter(
+        df_filtrado,
+        x="Quantidade",
+        y="Vendas",
+        size="Vendas",
+        color="Mês",
+        title=f"Vendas x Quantidade - {cidade_selecionada}",
+        hover_name="Mês"
     )
 
-    fig.update_layout(
-        xaxis_title="Mês",
-        yaxis_title="Vendas",
-        title_font_size=20,
-        xaxis_tickfont=dict(size=10),
-        yaxis_tickfont=dict(size=10),
-        margin=dict(l=40, r=20, t=60, b=40)
-    )
+    return fig_colunas, fig_linha, fig_disp
 
-    return fig
-
-
-app.run(host="0.0.0.0",port=int(os.environ.get("PORT",8050)))
+app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
