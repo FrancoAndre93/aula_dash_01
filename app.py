@@ -45,7 +45,7 @@ def atualizar_graficos(cidade_selecionada):
         df_filtrado,
         x="Mês",
         y="Vendas",
-        title=f"Tendência de Vendas - {cidade_selecionada}",
+        title=f"Tendência de Vendas {cidade_selecionada}",
         markers=True
     )
 
@@ -58,7 +58,7 @@ def atualizar_graficos(cidade_selecionada):
         y="Vendas",
         size="Vendas",
         color="Mês",
-        title=f"Vendas x Quantidade - {cidade_selecionada}",
+        title=f"Vendas x Quantidade {cidade_selecionada}",
         hover_name="Mês"
     )
 
